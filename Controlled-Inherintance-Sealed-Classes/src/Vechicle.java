@@ -1,4 +1,4 @@
- sealed class Vehicle permits Car,Bike ,Truck{
+ sealed class Vehicle {
 	 void disp() {
 		 System.out.println("This is a Vehicle");
 	 }
